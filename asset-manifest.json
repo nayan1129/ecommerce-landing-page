@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ecommerce-landing-page/static/css/main.5b1e5f2a.css",
+    "main.js": "/ecommerce-landing-page/static/js/main.54b92b7a.js",
+    "static/media/women.jpg": "/ecommerce-landing-page/static/media/women.4d4e3fc778cbc10ff150.jpg",
+    "static/media/jeans.jpg": "/ecommerce-landing-page/static/media/jeans.a52027abee0d17478304.jpg",
+    "static/media/sweartshirt.jpg": "/ecommerce-landing-page/static/media/sweartshirt.caee62a9cdaba713370f.jpg",
+    "static/media/men.jpg": "/ecommerce-landing-page/static/media/men.1b258389668c49e8a120.jpg",
+    "static/media/hoodies.jpg": "/ecommerce-landing-page/static/media/hoodies.b1a03243a204d349dfe0.jpg",
+    "static/media/accessories.jpg": "/ecommerce-landing-page/static/media/accessories.35cbdb9eb377b76cdc85.jpg",
+    "static/media/imgbackground.jpg": "/ecommerce-landing-page/static/media/imgbackground.c3be4e52357478891d3a.jpg",
+    "static/media/shitrs.jpg": "/ecommerce-landing-page/static/media/shitrs.8884eb6a078adcd73cee.jpg",
+    "static/media/t-shirt.jpg": "/ecommerce-landing-page/static/media/t-shirt.128660d719da46a5acf6.jpg",
+    "static/media/jackets.jpg": "/ecommerce-landing-page/static/media/jackets.2b8bcde7525d420c62cb.jpg",
+    "static/media/pf logo img.png": "/ecommerce-landing-page/static/media/pf logo img.83fa6a2d742b5407752d.png",
+    "index.html": "/ecommerce-landing-page/index.html",
+    "main.5b1e5f2a.css.map": "/ecommerce-landing-page/static/css/main.5b1e5f2a.css.map",
+    "main.54b92b7a.js.map": "/ecommerce-landing-page/static/js/main.54b92b7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b1e5f2a.css",
+    "static/js/main.54b92b7a.js"
+  ]
+}
