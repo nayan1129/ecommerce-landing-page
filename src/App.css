@@ -1,38 +1,255 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  width: 5em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nav-item a {
+  color: white;
+  margin-left: 18px;
+  font-size: 20px;
+}
+
+.nav-item a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+}
+
+/* navbar-toggler */
+.navbar-toggler {
+  background-color: white;
+}
+
+.header {
+  position: relative;
+  background: url(./Images/imgbackground.jpg) no-repeat;
+  background-size: cover;
+  background-position: revert;
+  height: 90vh;
+  opacity: 0.9;
+}
+@media (max-width: 460px) {
+  .header {
+    height: 72vh;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-info {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 123px;
+  left: 0;
+  right: 550px;
+  bottom: 0;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 847px) {
+  .main-info {
+    top: 0;
+    right: 0;
   }
-  to {
-    transform: rotate(360deg);
+}
+.main-info h2 {
+  color: rgb(255, 254, 254);
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 7px rgb(0, 0, 0);
+  font-family: system-ui;
+}
+
+.main-info h3 {
+  font-family: none;
+  /* text-shadow: 3px 3px 7px rgb(255, 255, 255); */
+  background-color: #f0f8ff63;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  border: 2px solid black;
+}
+
+@media (max-width: 763px) {
+  .main-info h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 661px) {
+  .main-info h1 {
+    font-size: 2rem;
+  }
+  .main-info h3 {
+    font-size: 1.5em;
+  }
+}
+.btn-header {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-image: initial;
+  background: none;
+  color: white;
+  background-color: #2b3a3a;
+  border-radius: 13px;
+}
+.btn-header:hover {
+  background: none;
+  color: black;
+}
+
+/* Section-1  */
+.section-1 {
+  margin: 12px;
+  padding: 20px;
+}
+.section-1 .section-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.section-1 .section-info .img-box {
+  position: relative;
+}
+.section-1 img {
+  width: 250px;
+  margin: 10px;
+}
+.section-1 div .button-position {
+  position: absolute;
+  padding: 2px;
+  border: 2px solid black;
+  font-weight: bold;
+  color: black;
+}
+.section-1 div .btnn-1 {
+  right: 45%;
+  top: 313px;
+}
+.section-1 div .btnn-2 {
+  right: 38%;
+  top: 304px;
+}
+.section-1 div .btnn-3 {
+  right: 31%;
+  top: 304px;
+}
+
+/* content  */
+.content {
+  padding: 10px;
+}
+.content-1 {
+  margin: 12px;
+  padding: 20px;
+}
+.content h1 {
+  color: #5353c3c2;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.content-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.line {
+  padding: 2px;
+  background-color: black;
+  width: 100%;
+}
+.btn-1 {
+  right: 43%;
+  top: 353px;
+}
+
+.btn-2 {
+  right: 42%;
+  top: 353px;
+}
+
+.btn-3 {
+  right: 40%;
+  top: 353px;
+}
+
+.btn-4 {
+  right: 42%;
+  top: 353px;
+}
+
+.btn-5 {
+  right: 36%;
+  top: 353px;
+}
+
+.btn-6 {
+  right: 37%;
+  top: 353px;
+}
+.content-1 img {
+  width: 250px;
+  margin: 10px;
+}
+.content-info .content-img {
+  position: relative;
+  padding: 33px;
+}
+.content-1 div .btn-position {
+  position: absolute;
+  padding: 2px;
+  border: none;
+  font-weight: bold;
+  color: rgb(129 50 50 / 88%);
+}
+.btn-position:hover {
+  background-color: rgb(143, 140, 140);
+}
+
+/* Footer  */
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer-info p {
+  padding: 0px 6px;
+}
+.info-1 {
+  padding: 35px;
+  margin: 13px;
+  box-shadow: 4px 4px;
+  border: 1px solid black;
+}
+
+.info-2 {
+  padding: 35px;
+  margin: 13px;
+  box-shadow: 4px 4px;
+  border: 1px solid black;
+}
+
+.info-3 {
+  padding: 35px;
+  margin: 13px;
+  box-shadow: 4px 4px;
+  border: 1px solid black;
+}
+@media (max-width: 802px) {
+   .footer-info{
+    flex-wrap: wrap;
   }
 }
